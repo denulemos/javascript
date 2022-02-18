@@ -8,3 +8,10 @@ const obtenerUsuario = async () => {
 }
 
 obtenerUsuario()
+
+/* Con cada promise, vamos creando diferentes hilos en la ejecucion, 
+que se van parando/continuando a medida que se van cumpliendo (o no, porque puede fallar) 
+las promesas.
+
+Una funcion puede ser `async()` si posee un `await` dentro del mismo 
+*/
